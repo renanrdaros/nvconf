@@ -14,6 +14,8 @@ call plug#begin()
     Plug 'tomasiser/vim-code-dark'
     " Sometimes, it's useful to line up text
     Plug 'godlygeek/tabular'
+    " Syntax highlighting, matching rules and mappings for the original Markdown and extensions
+    Plug 'plasticboy/vim-markdown'
     " Preview markdown on browser with synchronised scrolling and flexible configuration
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 call plug#end()
