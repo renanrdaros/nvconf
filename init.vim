@@ -5,6 +5,8 @@ call plug#begin()
     Plug 'jiangmiao/auto-pairs'
     " Comment stuff out
     Plug 'tpope/vim-commentary'
+    " add/delete/replace surroundings of a sandwiched textobject
+    Plug 'machakann/vim-sandwich'
 call plug#end()
 
 set termguicolors
