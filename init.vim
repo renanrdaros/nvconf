@@ -12,6 +12,8 @@ call plug#begin()
     Plug 'vim-airline/vim-airline-themes'
     " Dark color scheme
     Plug 'tomasiser/vim-code-dark'
+    " Sometimes, it's useful to line up text
+    Plug 'godlygeek/tabular'
     " Preview markdown on browser with synchronised scrolling and flexible configuration
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 call plug#end()
