@@ -3,6 +3,8 @@ call plug#begin()
     Plug 'sheerun/vim-polyglot'
     " Insert or delete brackets, parens, quotes in pair
     Plug 'jiangmiao/auto-pairs'
+    " Comment stuff out
+    Plug 'tpope/vim-commentary'
 call plug#end()
 
 set termguicolors
