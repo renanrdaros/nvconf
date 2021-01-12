@@ -22,6 +22,8 @@ call plug#begin()
     Plug 'voldikss/vim-floaterm'
     " Make Vim/Neovim as smart as VSCode
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Add icons to plugins
+    Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 set termguicolors
