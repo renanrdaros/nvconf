@@ -18,6 +18,8 @@ call plug#begin()
     Plug 'plasticboy/vim-markdown'
     " Preview markdown on browser with synchronised scrolling and flexible configuration
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+    " (neo)vim terminal in the floating/popup window
+    Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 set termguicolors
@@ -62,8 +64,8 @@ nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<CR>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<CR>:echo 'init.vim was sourced'<CR>
 
 " enter terminal-mode
-nnoremap <silent> <leader>ts :sp<CR>:term<CR>i
-nnoremap <silent> <leader>tv :vs<CR>:term<CR>i
+nnoremap <silent> <C-t>s :sp<CR>:term<CR>i
+nnoremap <silent> <C-t>v :vs<CR>:term<CR>i
 
 " exit terminal-mode
 tnoremap <leader>[ <C-\><C-n>
@@ -95,3 +97,4 @@ nnoremap <silent> <A-h> Xph
 source $HOME/.config/nvim/pconf/vim-airline.vim
 source $HOME/.config/nvim/pconf/vim-code-dark.vim
 source $HOME/.config/nvim/pconf/markdown-preview.vim
+source $HOME/.config/nvim/pconf/vim-floaterm.vim
