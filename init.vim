@@ -1,3 +1,8 @@
+call plug#begin()
+    " A collection of language packs for Vim
+    Plug 'sheerun/vim-polyglot'
+call plug#end()
+
 set termguicolors
 let g:enable_bold_font = 1
 let g:enable_italic_font = 1
