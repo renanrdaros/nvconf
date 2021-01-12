@@ -20,6 +20,8 @@ call plug#begin()
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
     " (neo)vim terminal in the floating/popup window
     Plug 'voldikss/vim-floaterm'
+    " Make Vim/Neovim as smart as VSCode
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 set termguicolors
@@ -98,3 +100,5 @@ source $HOME/.config/nvim/pconf/vim-airline.vim
 source $HOME/.config/nvim/pconf/vim-code-dark.vim
 source $HOME/.config/nvim/pconf/markdown-preview.vim
 source $HOME/.config/nvim/pconf/vim-floaterm.vim
+source $HOME/.config/nvim/pconf/coc.vim
+source $HOME/.config/nvim/pconf/coc-explorer.vim
