@@ -12,6 +12,8 @@ call plug#begin()
     Plug 'vim-airline/vim-airline-themes'
     " Dark color scheme
     Plug 'tomasiser/vim-code-dark'
+    " Preview markdown on browser with synchronised scrolling and flexible configuration
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 call plug#end()
 
 set termguicolors
@@ -88,3 +90,4 @@ nnoremap <silent> <A-h> Xph
 " plugins configurations
 source $HOME/.config/nvim/pconf/vim-airline.vim
 source $HOME/.config/nvim/pconf/vim-code-dark.vim
+source $HOME/.config/nvim/pconf/markdown-preview.vim
