@@ -7,6 +7,11 @@ call plug#begin()
     Plug 'tpope/vim-commentary'
     " add/delete/replace surroundings of a sandwiched textobject
     Plug 'machakann/vim-sandwich'
+    " Lean & mean status/tabline
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    " Dark color scheme
+    Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
 set termguicolors
@@ -78,3 +83,8 @@ nnoremap <silent> <A-j> :m .+1<CR>==
 " swap characters
 nnoremap <silent> <A-l> xp
 nnoremap <silent> <A-h> Xph
+
+
+" plugins configurations
+source $HOME/.config/nvim/pconf/vim-airline.vim
+source $HOME/.config/nvim/pconf/vim-code-dark.vim
