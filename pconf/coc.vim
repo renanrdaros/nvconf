@@ -1,4 +1,4 @@
-let g:coc_global_extensions = ['coc-explorer']
+let g:coc_global_extensions = ['coc-explorer', 'coc-clangd']
 
 
 " Use tab for trigger completion with characters ahead and navigate.
