@@ -68,8 +68,8 @@ nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<CR>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<CR>:echo 'init.vim was sourced'<CR>
 
 " enter terminal-mode
-nnoremap <silent> <C-t>s :sp<CR>:term<CR>i
-nnoremap <silent> <C-t>v :vs<CR>:term<CR>i
+nnoremap <silent> <leader>ts :sp<CR>:term<CR>i
+nnoremap <silent> <leader>tv :vs<CR>:term<CR>i
 
 " exit terminal-mode
 tnoremap <leader>[ <C-\><C-n>
