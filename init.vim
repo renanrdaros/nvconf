@@ -101,6 +101,7 @@ nnoremap <silent> <A-h> Xph
 source $HOME/.config/nvim/pconf/vim-airline.vim
 source $HOME/.config/nvim/pconf/vim-code-dark.vim
 source $HOME/.config/nvim/pconf/markdown-preview.vim
+source $HOME/.config/nvim/pconf/vim-markdown.vim
 source $HOME/.config/nvim/pconf/vim-floaterm.vim
 source $HOME/.config/nvim/pconf/coc.vim
 source $HOME/.config/nvim/pconf/coc-explorer.vim
