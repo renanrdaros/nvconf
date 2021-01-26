@@ -24,6 +24,9 @@ call plug#begin()
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Add icons to plugins
     Plug 'ryanoasis/vim-devicons'
+    " Fuzzy finder
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
 call plug#end()
 
 set termguicolors
@@ -105,3 +108,4 @@ source $HOME/.config/nvim/pconf/vim-markdown.vim
 source $HOME/.config/nvim/pconf/vim-floaterm.vim
 source $HOME/.config/nvim/pconf/coc.vim
 source $HOME/.config/nvim/pconf/coc-explorer.vim
+source $HOME/.config/nvim/pconf/fzf.vim
