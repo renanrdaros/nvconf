@@ -27,6 +27,10 @@ call plug#begin()
     " Fuzzy finder
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    " The premier Git plugin for Vim
+    Plug 'tpope/vim-fugitive'
+    " Show a git diff in the sign column
+    Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 set termguicolors
